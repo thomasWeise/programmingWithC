@@ -1,0 +1,31 @@
+\chapter*{Preface}%
+\pdfbookmark{Preface}{preface}%
+%
+This is a book on programming with C.
+
+This book is released under the \emph{Attribution-NonCommercial-ShareAlike~4.0 International license} (\href{http://creativecommons.org/licenses/by-nc-sa/4.0/}{\mbox{CC~BY-NC-SA~4.0}}).
+You can freely share it.
+Please do not print it, though, to preserve the environment.
+%
+\strut\vfill\strut%
+%
+\copyrightBlock{2026}%
+%
+\clearpage%
+%
+\strut\vfill\strut%
+%
+\begin{center}%
+\noindent\resizebox{\linewidth}{!}{%
+\begin{tabular}{c@{~~~~~~~~}c}%
+\includegraphics[width=7cm]{\currentDir/bookUrl}&\includegraphics[width=7cm]{\currentDir/courseUrl}\\\relax%
+{\huge{[\expandafter\href{\programmingWithCUrl/programmingWithC.pdf}{book pdf}]}}&{\huge{[\expandafter\href{\programmingWithCUrl}{course website}]}}\\%
+\end{tabular}}%
+\\[12pt]\noindent%
+\resizebox{0.85\linewidth}{!}{\expandafter\url{\programmingWithCUrl}}%
+\end{center}%
+%
+\strut\vfill\strut%
+This book was built using the following software:%
+\gitExec{exec:versions}{}{}{text/front/preface/dependencyVersions.sh}%
+\lstinputlisting[style=text_style]{\gitFile{exec:versions}}%
