@@ -16,7 +16,6 @@ if [ -n "$error" ]; then
     error="$(gcc --std=c2x --version 2>&1 >/dev/null || true)"
     if [ -n "$error" ]; then
         echo "GCC does not support C23."
-        echo "$gccVersion"
         exit 1
     else
         gccStd="c2x"
